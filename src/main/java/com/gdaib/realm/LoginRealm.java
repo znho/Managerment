@@ -1,5 +1,7 @@
 package com.gdaib.realm;
 
+import com.gdaib.pojo.*;
+
 import com.gdaib.service.UsersService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -34,24 +36,24 @@ public class LoginRealm extends AuthorizingRealm {
 //        String password = "49e002d5a8ea93420d30a2978b2c565e";
 //        String DBusername = "";
         try {
-            //查找是否有该用户
-            int count = usersService.findAccountFromUsername(username);
-            System.out.println(count);
+//            //查找是否有该用户
+//            int count = usersService.findAccountFromUsername(username);
+//            System.out.println(count);
+//
+//            //4.得到的用户信息做出验证，如果是不存在或者未验证，直接抛出异常
+//            if(count == 0){
+//                throw new UnknownAccountException("用户不存在");
+//            }
 
-            if(count == 0){
-                throw new UnknownAccountException("用户不存在");
-            }
+
+//            System.out.println(account.getAccount()+":"+account.getPassword());
+
 
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
 
-//
-//        //4.得到的用户信息做出验证，如果是不存在或者未验证，直接抛出异常
-//
-//
-//
-//
+
 //        //使用这个得到盐值，就是一个利用字符串转换得值，因为我们的用户名是独一无二的，所以使用它
 //        ByteSource salt = ByteSource.Util.bytes(username);
 //

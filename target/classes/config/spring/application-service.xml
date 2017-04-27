@@ -22,5 +22,5 @@
 
         <bean id="usersService" class="com.gdaib.service.impl.UsersServiceImpl"/>
 
-        <bean class="com.gdaib.pojo.AccountExample"/>
+        <bean id="accountExample" class="com.gdaib.pojo.AccountExample" scope="prototype"/>
 </beans>

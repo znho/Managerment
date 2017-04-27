@@ -2,120 +2,436 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074a864f-be6e-4d1f-9b59-1ee84995b5e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/File_InfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_ComMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_DnMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_DpMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_OmMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_UgomMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_Depart_ProMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_DnMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_File_InfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_Role_PermissionsMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_Teacher_InfoMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/AccountKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/CharacterKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_Om.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/ModuleKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/OperateKey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Depart_Pro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Dn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_DnExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_File_Info.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/File_infoMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_acMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_acMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_comMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_dnMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_dpMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_omMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_ugomMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Person_infoMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/SecMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_AuthorityMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_File_infoMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_Person_infoMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_UgomMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_ac.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_om.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_omExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_ugom.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Sec.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/SecExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_File_info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Ugom.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/controller/PublicController.class" afterPath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/controller/PublicController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Account.class" afterPath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Account.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/realm/LoginRealm.class" afterPath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/realm/LoginRealm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/service/UsersService.class" afterPath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/service/UsersService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/service/impl/UsersServiceImpl.class" afterPath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/service/impl/UsersServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/controller/PublicController.class" afterPath="$PROJECT_DIR$/target/classes/com/gdaib/controller/PublicController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Account.class" afterPath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Account.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/realm/LoginRealm.class" afterPath="$PROJECT_DIR$/target/classes/com/gdaib/realm/LoginRealm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/service/UsersService.class" afterPath="$PROJECT_DIR$/target/classes/com/gdaib/service/UsersService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/service/impl/UsersServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/gdaib/service/impl/UsersServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/controller/PublicController.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/controller/PublicController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/AccountMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/AccountMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/CharacterMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/CharacterMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/CharacterMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/CharacterMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/DepartmentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/DepartmentMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/FirstMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/FirstMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/ModuleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/ModuleMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/ModuleMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/ModuleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/NavigationMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/NavigationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/NavigationMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/NavigationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/OperateMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/OperateMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/OperateMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/OperateMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/ProfessionMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/ProfessionMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Character.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Character.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Module.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Module.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Navigation.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Navigation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/NavigationExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/NavigationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Operate.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Operate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/realm/LoginRealm.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/realm/LoginRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/service/UsersService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/service/UsersService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/service/impl/UsersServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/service/impl/UsersServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/application-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/application-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/AccountMapper.xml" afterPath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/AccountMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/spring/application-service.xml" afterPath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/spring/application-service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/AccountMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/AccountMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/spring/application-service.xml" afterPath="$PROJECT_DIR$/target/classes/config/spring/application-service.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/File_infoMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/File_InfoMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_comMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_ComMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_dnMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_DnMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_dpMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_DpMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_omMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_OmMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_ugomMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Mapping_UgomMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/Person_infoMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/AccountMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/SecMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_DnMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_AuthorityMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_Role_PermissionsMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_File_infoMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_File_InfoMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_Person_infoMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_Teacher_InfoMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_UgomMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/mapper/V_Depart_ProMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Account.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_Ugom.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/File_info.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/File_Info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/File_infoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/File_InfoExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_acExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_OmExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_com.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_Com.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_comExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_ComExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_dn.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_Dn.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_dnExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_DnExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_dp.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_Dp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_dpExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_DpExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_ugomExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Mapping_UgomExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Person_info.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Account.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/Person_infoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/AccountExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Authority.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Role_Permissions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_AuthorityExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Role_PermissionsExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_File_infoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_File_InfoExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Person_info.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Teacher_Info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Person_infoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Teacher_InfoExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_UgomExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdaib/pojo/V_Depart_ProExample.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/M1-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/M1/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/controller/PublicController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/AccountMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/AccountMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/CharacterMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/CharacterMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/DepartmentMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/DepartmentMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/File_infoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/File_infoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/FirstMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/FirstMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_acMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_acMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_comMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_comMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_dnMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_dnMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_dpMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_dpMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_omMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_omMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_ugomMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Mapping_ugomMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/ModuleMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/ModuleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/NavigationMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/NavigationMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/OperateMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/OperateMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Person_infoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/Person_infoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/ProfessionMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/ProfessionMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/SecMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/SecMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/UsersMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/UsersMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/V_AuthorityMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/V_AuthorityMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/V_File_infoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/V_File_infoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/V_Person_infoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/V_Person_infoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/V_UgomMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/mapper/V_UgomMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/AccountExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/AccountExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/AccountExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/AccountExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Character.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/CharacterExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/CharacterExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/CharacterExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/CharacterExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Department.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/DepartmentExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/DepartmentExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/DepartmentExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/DepartmentExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/File_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/File_infoExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/File_infoExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/File_infoExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/File_infoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/First.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/FirstExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/FirstExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/FirstExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/FirstExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_ac.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_acExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_acExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_acExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_acExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_com.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_comExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_comExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_comExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_comExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dn.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dnExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dnExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dnExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dnExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dpExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dpExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dpExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_dpExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_om.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_omExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_omExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_omExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_omExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_ugom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_ugomExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_ugomExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_ugomExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Mapping_ugomExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Module.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/ModuleExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/ModuleExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/ModuleExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/ModuleExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Navigation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/NavigationExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/NavigationExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/NavigationExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/NavigationExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Operate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/OperateExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/OperateExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/OperateExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/OperateExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Person_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Person_infoExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Person_infoExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Person_infoExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Person_infoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Profession.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/ProfessionExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/ProfessionExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/ProfessionExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/ProfessionExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/Sec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/SecExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/SecExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/SecExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/SecExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_Authority.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_AuthorityExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_AuthorityExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_AuthorityExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_AuthorityExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_File_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_File_infoExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_File_infoExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_File_infoExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_File_infoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_Person_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_Person_infoExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_Person_infoExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_Person_infoExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_Person_infoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_Ugom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_UgomExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_UgomExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_UgomExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/pojo/V_UgomExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/realm/LoginRealm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/service/UsersService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/service/impl/UsersServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/com/gdaib/util/FilterChainDefinitionMapBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/ehcache.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/mybatis/sqlMapConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/spring/Springmvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/spring/application-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/spring/application-kaptcha.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/spring/application-service.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/spring/application-shiro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/config/spring/application-transaction.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/departmentpage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/filecontent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/filemanage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/findpassword.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/modifypwd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/personalpage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/register.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/rootPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/jsps/selectdepartment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/activation-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/ant-1.9.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/ant-launcher-1.9.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/asm-5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/aspectjrt-1.8.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/aspectjtools-1.8.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/aspectjweaver-1.7.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/c3p0-0.9.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/cglib-3.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/ehcache-core-2.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/jackson-core-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/jackson-databind-2.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/javaee-api-7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/javax.mail-1.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/kaptcha-2.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/mchange-commons-java-0.2.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/mybatis-3.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/mysql-connector-java-5.1.29.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/ognl-3.1.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/shiro-core-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/shiro-ehcache-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/shiro-spring-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/shiro-web-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/slf4j-api-1.7.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/slf4j-log4j12-1.7.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-aspects-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-context-support-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-instrument-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-instrument-tomcat-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-jms-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-messaging-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-orm-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-oxm-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-webmvc-portlet-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/lib/spring-websocket-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/departmentpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/findpassword.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/modifypwd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/normal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/personalpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/register.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/rootPage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/css/selectdepartment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/images/fj2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/images/log.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/images/logout-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/images/reg-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/images/流程图.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/checkInput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/departmentpageMain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/loginMain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/overborwserEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/registerMain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/require.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Management/resources/js/rootpageMain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Maven_Project/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/app/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/controller/PublicController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/AccountMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/AccountMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/CharacterMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/CharacterMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/DepartmentMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/DepartmentMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/File_infoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/File_infoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/FirstMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/FirstMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_acMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_acMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_comMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_comMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_dnMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_dnMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_dpMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_dpMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_omMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_omMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_ugomMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Mapping_ugomMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/ModuleMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/ModuleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/NavigationMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/NavigationMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/OperateMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/OperateMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Person_infoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/Person_infoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/ProfessionMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/ProfessionMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/SecMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/SecMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/UsersMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/UsersMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/V_AuthorityMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/V_AuthorityMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/V_File_infoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/V_File_infoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/V_Person_infoMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/V_Person_infoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/V_UgomMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/mapper/V_UgomMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/AccountExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/AccountExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/AccountExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/AccountExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Character.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/CharacterExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/CharacterExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/CharacterExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/CharacterExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Department.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/DepartmentExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/DepartmentExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/DepartmentExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/DepartmentExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/File_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/File_infoExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/File_infoExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/File_infoExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/File_infoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/First.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/FirstExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/FirstExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/FirstExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/FirstExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_ac.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_acExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_acExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_acExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_acExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_com.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_comExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_comExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_comExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_comExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dn.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dnExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dnExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dnExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dnExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dpExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dpExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dpExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_dpExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_om.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_omExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_omExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_omExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_omExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_ugom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_ugomExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_ugomExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_ugomExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Mapping_ugomExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Module.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/ModuleExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/ModuleExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/ModuleExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/ModuleExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Navigation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/NavigationExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/NavigationExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/NavigationExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/NavigationExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Operate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/OperateExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/OperateExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/OperateExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/OperateExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Person_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Person_infoExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Person_infoExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Person_infoExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Person_infoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Profession.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/ProfessionExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/ProfessionExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/ProfessionExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/ProfessionExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/Sec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/SecExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/SecExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/SecExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/SecExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_Authority.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_AuthorityExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_AuthorityExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_AuthorityExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_AuthorityExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_File_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_File_infoExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_File_infoExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_File_infoExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_File_infoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_Person_info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_Person_infoExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_Person_infoExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_Person_infoExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_Person_infoExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_Ugom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_UgomExample$Criteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_UgomExample$Criterion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_UgomExample$GeneratedCriteria.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/pojo/V_UgomExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/realm/LoginRealm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/service/UsersService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/service/impl/UsersServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/gdaib/util/FilterChainDefinitionMapBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/ehcache.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/mybatis/sqlMapConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/Springmvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/application-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/application-kaptcha.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/application-service.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/application-shiro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/spring/application-transaction.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/test/test.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -167,46 +483,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-270">
               <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gdaib/mapper/AccountMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gdaib/pojo/AccountExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gdaib/pojo/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepartmentExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gdaib/pojo/DepartmentExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -768,28 +1044,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gdaib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1417,12 +1671,12 @@
       <workItem from="1493220434730" duration="7141000" />
       <workItem from="1493246877594" duration="9197000" />
       <workItem from="1493260178522" duration="9518000" />
-      <workItem from="1493294063168" duration="2414000" />
+      <workItem from="1493294063168" duration="2867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115464000" />
+    <option name="totallyTimeSpent" value="115917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1434,7 +1688,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1038" extended-state="1" />
+    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

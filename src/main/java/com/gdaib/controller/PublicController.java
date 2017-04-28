@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -87,6 +88,7 @@ public class PublicController {
 
         //1.得到Subject
         Subject subject = SecurityUtils.getSubject();
+        ModelAndView modelAndView = new ModelAndView();
         //2. 测试用户有没有被认证
         if(!subject.isAuthenticated()){
             //把用户名密码都封装到UsernamePasswordToken中
@@ -96,16 +98,27 @@ public class PublicController {
             try{
                 //登录，执行realm中的认证方法
                 subject.login(token);
-            }catch(AuthenticationException ae){
-                System.out.println(ae.getMessage()+ "!!!!!");
+
+            }catch (UnknownAccountException ue){
+                System.out.println("错误信息");
+                modelAndView.addObject("error",ue.getMessage());
+                modelAndView.addObject("username",username);
+                modelAndView.setViewName("login.jsp");
+                return modelAndView;
+            }
+            catch(AuthenticationException ae){
+                System.out.println("错误信息"+ae.getMessage().toString());
+                modelAndView.addObject("username",username);
+                modelAndView.setViewName("login.jsp");
+                return modelAndView;
             }
 
 
         }
+        System.out.println("登陆成功");
+        modelAndView.setViewName("register.jsp");
 
-
-
-        return null;
+        return modelAndView;
     }
 
 

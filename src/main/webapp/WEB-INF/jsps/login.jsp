@@ -21,7 +21,7 @@
 			<div class="form-content">
 				<div class="input-wrap">
 					<span class="input-icon">账号</span>
-					<input type="text" name="username" class="input-content" id="account" placeholder="请输入账号">
+					<input type="text" name="username" class="input-content" id="account" placeholder="请输入账号" value="${username}">
 					<p id="login-hint">账号和密码不存在</p>
 				</div>
 				<div class="input-wrap">

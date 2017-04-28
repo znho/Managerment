@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv = "X-UA-Compatible" content ="IE=Edge"/> 
 	<title>登录</title>
-	<%--<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/require.min.js" defer async="true" data-main="${pageContext.request.contextPath}/js/loginMain"></script>--%>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/require.min.js" defer async="true" data-main="${pageContext.request.contextPath}/resources/js/loginMain"></script>
 </head>
 <body>
 	<div id="warning">
@@ -15,7 +15,7 @@
 	<div class="header">
 		<h1>欢迎登陆专业管理系统</h1>
 	</div>
-
+	<div>${error}</div>
 	<div class="bg">
 		<form action="/Management/public/login.action" method="post" class="login-wrap">
 			<div class="form-content">

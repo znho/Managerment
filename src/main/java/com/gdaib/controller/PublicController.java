@@ -108,6 +108,7 @@ public class PublicController {
             }
             catch(AuthenticationException ae){
                 System.out.println("错误信息"+ae.getMessage().toString());
+                modelAndView.addObject("error",ae.getMessage());
                 modelAndView.addObject("username",username);
                 modelAndView.setViewName("login.jsp");
                 return modelAndView;
